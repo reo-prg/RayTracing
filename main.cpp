@@ -61,7 +61,7 @@ int WINAPI WinMain(HINSTANCE , HINSTANCE,LPSTR,int ) {
 	SetOutApplicationLogValidFlag(false);
 	ChangeWindowMode(true);
 	SetGraphMode(screen_width, screen_height, 32);
-	SetMainWindowText(_T("1916037_パリィ勇行メサイアス"));
+	SetMainWindowText(_T("RayTracing"));
 	DxLib_Init();
 
 	floorImage = LoadSoftImage(L"Resource/tex.png");
